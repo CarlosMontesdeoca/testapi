@@ -13,4 +13,13 @@ class TestController extends Controller
         ];
         return response()->json($resp, 200);
     }
+
+    
+    public function test2() {
+        $resp = [
+            "Code" => 200,
+            "Info" => "login success"
+        ];
+        return response()->json($resp, 200);
+    }
 }
