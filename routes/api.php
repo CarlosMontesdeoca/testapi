@@ -20,5 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('test', 'App\Http\Controllers\TestController@test'); ## ==> Ruta de Pruebas usar y programar aqui si se quiere probar nuevas funciones.
 
-Route::post('test2', 'App\Http\Controllers\TestController@test'); ## ==> Ruta de Pruebas usar y programar aqui si se quiere probar nuevas funciones.
+Route::post('test2', 'App\Http\Controllers\TestController@test2'); ## ==> Ruta de Pruebas usar y programar aqui si se quiere probar nuevas funciones.
 
